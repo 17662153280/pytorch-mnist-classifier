@@ -51,8 +51,6 @@ pytorch-mnist-classifier/
 ├── train.py          # 模型训练脚本
 ├── test.py           # 模型测试脚本
 ├── predict.py        # 预测脚本
-├── checkpoints/      # 训练好的模型权重
-├── data/            # MNIST 数据集
 └── README.md        # 项目说明
 ```
 
