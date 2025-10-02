@@ -1,26 +1,46 @@
-# PyTorch MNIST 项目 .gitignore
+# ============================================
+# PyTorch MNIST 手写数字识别项目
+# ============================================
 
-# 数据文件
+# 数据文件和模型权重
 /data/
 /checkpoints/
 *.pth
 *.pt
+*.pkl
 
-# Python
+# Python 缓存和编译文件
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+*.so
 .python-version
 
-# 环境
+# 虚拟环境
 .env
 .venv/
 venv/
+env/
 
-# 编辑器
+# 编辑器文件
 .vscode/
 .idea/
 *.swp
+*.swo
 
-# 系统
+# 系统文件
 .DS_Store
 Thumbs.db
+desktop.ini
+
+# 日志文件
+*.log
+logs/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# 训练过程中的临时文件
+training_curve.png
+prediction_examples.png
