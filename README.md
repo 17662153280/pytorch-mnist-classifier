@@ -68,7 +68,7 @@ class DigitClassifier(nn.Module):
 
 ## 📈 训练过程
 
-![预测示例](https://github.com/17662153280/pytorch-mnist-classifier/issues/1#issue-3477943840)
+![预测示例](prediction_examples.png)
 *模型预测结果示例*
 
 ### 超参数设置
