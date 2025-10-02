@@ -101,4 +101,12 @@ class DigitClassifier(nn.Module):
 
 ## 📄 许可证
 
+本项目采用 MIT 许可证 - 查看 [LICENSE](LICENSE) 文件了解详情。
+
+```text
 MIT License
+
+Copyright (c) 2025 YAOBING YANG
+
+Permission is hereby granted, free of charge, to any person...
+```
